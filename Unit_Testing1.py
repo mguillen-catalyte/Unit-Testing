@@ -1,8 +1,8 @@
 def division(numerator, denominator):
     if denominator == 0:
-        return False
+        raise ValueError("You cannot divide by 0")
     else:
         return numerator / denominator
 
 
-print(division(4, 2))
+print(division(0, 7))
