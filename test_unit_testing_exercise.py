@@ -7,15 +7,15 @@ from unit_testing_exercise import (
 
 
 def test_sum_of_numbers():
-    assert sum_of_numbers([2, 6, 9]) == 17
+    assert sum_of_numbers([1, 5, 9]) == 15
 
 
 def test_minimum_number():
-    assert minimum_number([2, 6, 9]) == 2
+    assert minimum_number([1, 5, 9]) == 1
 
 
 def test_maximum_number():
-    assert maximum_number([2, 6, 9]) == 9
+    assert maximum_number([1, 5, 9]) == 9
 
 
 def test_average_number():
