@@ -7,7 +7,7 @@ def test_positive_numbers():
 
 
 def test_negative_numbers():
-    assert division(-8, -2) == 4
+    assert division(-8, 2) == -4
 
 
 def test_bigger_denominator():
@@ -21,3 +21,7 @@ def test_dividing_by_zero():
 
 def test_zero_numerator():
     assert division(0, 9) == 0
+
+
+def test_non_exact_result():
+    assert division(7, 5) == 1.4

@@ -3,6 +3,3 @@ def division(numerator, denominator):
         raise ValueError("You cannot divide by 0")
     else:
         return numerator / denominator
-
-
-print(division(0, 7))
